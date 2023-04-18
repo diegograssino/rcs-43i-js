@@ -1,28 +1,57 @@
 // Mensajes por consola y alert
+// Tenemos el console.log para poder mostrar algo por consola del navegador, tambien tenemos el alert para mostrar alertas nativas del navegador (no se recomienda el uso de alerts)
+// console.log('Hola 43i');
+// alert('Hola 43i');
 
 // Definición de variables, formas y sintaxis
+// Con const defino valores constantes, que no cambiar
+// const number = 1;
+// console.log(number);
+// number = 2;
 
-// Lo definido con "let" puede variar.
+// Defino con let valores que pueden cambiar
+// let number = 1;
+// console.log(number);
+// number = 2;
 
-// Lo definido con "const" no va a variar (OJO! si es un objeto igual lo defino con cost y ahi SI puede variar)
+// const numero1 = 1;
+// const numero2 = `Hola mundo`;
+// backtick
+// console.log(numero1);
+// console.log(numero2);
 
-// Lo definido con "var" puede variar, entonces, cual es la diferencia con let? Que con var los valores existen durante toda la vida de la aplicacion, con let puedo achicar el ambito de accion.
+//
+// const string = 'Esto es un string';
+// console.log(string);
+// const number = 2;
+// console.log(number);
 
-// Siempre debo usar camelCase para los nombres de las variables, las constantes se definen con mayusculas.
+// Esto es un valor booleano, solo puede ser true o false
+// let boolean = false;
+// console.log(boolean);
+// Esto es un valor undefined
+// const undefined;
 
-// Number
-
-// Boolean
-
-// Array o arreglos o listas
-
-// Object
+// boolean = true;
+// console.log(boolean);
 
 // 1) Defina una variable sin asignarle ningún valor.
 
 // A la variable del enunciado anterior, asignele el valor "cinco".
 
+// const variableEnString = 'cinco';
+// const variableEnStringTramposa = '5';
+// const variableEnNumber = 5;
+
 // Diferencia entre "cinco", "5" y 5 (los tipos/ valores son diferentes)
+
+// console.log(typeof variableEnString);
+// console.log(typeof variableEnStringTramposa);
+// console.log(typeof variableEnNumber);
+
+// console.log(
+//   variableEnStringTramposa === variableEnNumber
+// );
 
 // let concatenacion = valor + " " + "es el valor";
 
