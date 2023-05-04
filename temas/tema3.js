@@ -38,9 +38,9 @@
 
 // Simule un estado de logueo con usuario y contraseña y, solo si no esta logueado, muestre un mensaje de error repetitivo.
 
-let exit = false;
-const userOk = 'ROBERTO';
-const passOk = 'Sandro';
+// let exit = false;
+// const userOk = 'ROBERTO';
+// const passOk = 'Sandro';
 
 // Version 1
 // do {
@@ -103,6 +103,19 @@ const passOk = 'Sandro';
 // }
 
 // (AHORA CON FOR) Escribe un algoritmo que muestre si cada uno de los numeros del 1 al 10 son múltiplos de 2.
+// for (let i = 1; i <= 5; i++) {
+//   const multiplo = i % 2 === 0 ? 'SI' : 'NO';
+
+//   if (multiplo === 'SI') {
+//     console.log(
+//       i + ' ' + multiplo + ' es múltiplo de 2'
+//     );
+//   } else {
+//     console.error(
+//       i + ' ' + multiplo + ' es múltiplo de 2'
+//     );
+//   }
+// }
 
 // Escribe un algoritmo que muestre solo los numeros pares del 1 al 10
 
